@@ -260,16 +260,18 @@
       
       div.innerHTML += '<h2>Legend</h2>'
 
+     
       for (var i = 0; i < iconName.length; i++) {
-        div.innerHTML += '<img src="'+iconImg[i]+'" class="legend-img" width="20px">'+' '+iconName[i]+'<br>'
-    }
+        div.innerHTML += '<span class="legend-element"><img src="'+iconImg[i]+'" class="legend-img" width="20px">'+' '+iconName[i]+'</span><br  class="legend-element">'
+      }
     
 
       for (var i = 0; i < grades.length; i++) {
-          div.innerHTML += '<div class="square '+color[i]+'"></div>'+
-          ' '+grades[i]+'<br>'
+          div.innerHTML += '<span class="legend-element"><div class="square '+color[i]+'"></div>'+
+          ' '+grades[i]+'</span><br  class="legend-element">'
       }
-  
+
+      
       return div;
   };
   
@@ -355,7 +357,12 @@ L.easyPrint({
 console.log("Hey There%c dev \n%cA short note about me I am %cRithin Jose %c\nI am a MERN developer who loves to make Websites.\nFor any form of colaborations ping me at %crithinja@gmail.com",'color:red','color:none','font-weight:700','font-weight:500','font-weight:700');
 
 
-const colapseLegend = document.querySelectorAll("div.info.legend.leaflet-control");
+var data =  document.querySelectorAll('.legend-element')
+console.log(data.classList);
 
-// colapseLegend.addEventListener("click", ()=);
+document.getElementById("collapselegend").addEventListener("click", function() {
+    data.forEach(element=> {
+      element.classList.toggle("hide")
+    })
 
+});
