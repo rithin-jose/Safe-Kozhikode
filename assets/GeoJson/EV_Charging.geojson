@@ -1,0 +1,31 @@
+var evCharging = {
+"type": "FeatureCollection",
+"name": "EV_Charging1",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "ID": 1, "Location": "NALLALAM S S", "lattitude": 11.2089, "longitude": 75.80835, "Land": "KSEB LAND", "Type": "4 Wheeler" }, "geometry": { "type": "Point", "coordinates": [ 75.80835, 11.2089 ] } },
+{ "type": "Feature", "properties": { "ID": 2, "Location": "RAMANTUKARA SS", "lattitude": 11.17888, "longitude": 75.86308, "Land": "KSEB LAND", "Type": "4 Wheeler" }, "geometry": { "type": "Point", "coordinates": [ 75.86308, 11.17888 ] } },
+{ "type": "Feature", "properties": { "ID": 3, "Location": "GANDHI ROAD", "lattitude": 11.26385, "longitude": 75.76926, "Land": "KSEB LAND", "Type": "4 Wheeler" }, "geometry": { "type": "Point", "coordinates": [ 75.76926, 11.26385 ] } },
+{ "type": "Feature", "properties": { "ID": 4, "Location": "PAVANGAD SS", "lattitude": 11.31227, "longitude": 75.75861, "Land": "KSEB LAND", "Type": "4 Wheeler" }, "geometry": { "type": "Point", "coordinates": [ 75.75861, 11.31227 ] } },
+{ "type": "Feature", "properties": { "ID": 5, "Location": "VELLIPARAMBA SS", "lattitude": 11.26929, "longitude": 75.85392, "Land": "KSEB LAND", "Type": "4 Wheeler" }, "geometry": { "type": "Point", "coordinates": [ 75.85392, 11.26929 ] } },
+{ "type": "Feature", "properties": { "ID": 6, "Location": "THAMARASSERY SS", "lattitude": 11.42377, "longitude": 75.93887, "Land": "KSEB LAND", "Type": "4 Wheeler" }, "geometry": { "type": "Point", "coordinates": [ 75.93887, 11.42377 ] } },
+{ "type": "Feature", "properties": { "ID": 7, "Location": "KOYILANDI SS", "lattitude": 11.45001, "longitude": 75.7016, "Land": "KSEB LAND", "Type": "4 Wheeler" }, "geometry": { "type": "Point", "coordinates": [ 75.7016, 11.45001 ] } },
+{ "type": "Feature", "properties": { "ID": 8, "Location": "KKD STADIUM ", "lattitude": 11.25648, "longitude": 75.78641, "Land": "GOVT LAND", "Type": "4 Wheeler" }, "geometry": { "type": "Point", "coordinates": [ 75.78641, 11.25648 ] } },
+{ "type": "Feature", "properties": { "ID": 9, "Location": "CIVIL STATION", "lattitude": 11.28428, "longitude": 75.79164, "Land": "GOVT LAND", "Type": "4 Wheeler" }, "geometry": { "type": "Point", "coordinates": [ 75.79164, 11.28428 ] } },
+{ "type": "Feature", "properties": { "ID": 10, "Location": "GOVT.ARTS COLLEGE", "lattitude": 11.21386, "longitude": 75.79835, "Land": "GOVT LAND", "Type": "4 Wheeler" }, "geometry": { "type": "Point", "coordinates": [ 75.79835, 11.21386 ] } },
+{ "type": "Feature", "properties": { "ID": 11, "Location": "SAROVARAM", "lattitude": 11.2688924, "longitude": 75.7904968, "Land": "KSEB POLE MOUNTED", "Type": "2 \/ 3 Wheeler" }, "geometry": { "type": "Point", "coordinates": [ 75.7904968, 11.2688924 ] } },
+{ "type": "Feature", "properties": { "ID": 12, "Location": "JAFARKHAN COLONY", "lattitude": 11.2647072, "longitude": 75.7873513, "Land": "KSEB POLE MOUNTED", "Type": "2 \/ 3 Wheeler" }, "geometry": { "type": "Point", "coordinates": [ 75.7873513, 11.2647072 ] } },
+{ "type": "Feature", "properties": { "ID": 13, "Location": "MUTHAPPAN KAVU", "lattitude": 11.2651015, "longitude": 75.7858663, "Land": "KSEB POLE MOUNTED", "Type": "2 \/ 3 Wheeler" }, "geometry": { "type": "Point", "coordinates": [ 75.7858663, 11.2651015 ] } },
+{ "type": "Feature", "properties": { "ID": 14, "Location": "INCOME TAX ROAD", "lattitude": 11.2729223, "longitude": 75.7870408, "Land": "KSEB POLE MOUNTED", "Type": "2 \/ 3 Wheeler" }, "geometry": { "type": "Point", "coordinates": [ 75.7870408, 11.2729223 ] } },
+{ "type": "Feature", "properties": { "ID": 15, "Location": "SASTRI NAGAR", "lattitude": 11.2760302, "longitude": 75.7827744, "Land": "KSEB POLE MOUNTED", "Type": "2 \/ 3 Wheeler" }, "geometry": { "type": "Point", "coordinates": [ 75.7827744, 11.2760302 ] } },
+{ "type": "Feature", "properties": { "ID": 16, "Location": "ERANJIPPALAM", "lattitude": 11.2789052, "longitude": 75.7824147, "Land": "KSEB POLE MOUNTED", "Type": "2 \/ 3 Wheeler" }, "geometry": { "type": "Point", "coordinates": [ 75.7824147, 11.2789052 ] } },
+{ "type": "Feature", "properties": { "ID": 17, "Location": "VELLAYIL HARBOUR", "lattitude": 11.2647523, "longitude": 75.7673886, "Land": "KSEB POLE MOUNTED", "Type": "2 \/ 3 Wheeler" }, "geometry": { "type": "Point", "coordinates": [ 75.7673886, 11.2647523 ] } },
+{ "type": "Feature", "properties": { "ID": 18, "Location": "LIGHT HOUSE ", "lattitude": 11.2582025, "longitude": 75.7694271, "Land": "KSEB POLE MOUNTED", "Type": "2 \/ 3 Wheeler" }, "geometry": { "type": "Point", "coordinates": [ 75.7694271, 11.2582025 ] } },
+{ "type": "Feature", "properties": { "ID": 19, "Location": "BEACH HOSPITAL", "lattitude": 11.2579, "longitude": 75.7719024, "Land": "KSEB POLE MOUNTED", "Type": "2 \/ 3 Wheeler" }, "geometry": { "type": "Point", "coordinates": [ 75.7719024, 11.2579 ] } },
+{ "type": "Feature", "properties": { "ID": 20, "Location": "TAJ HOTEL", "lattitude": 11.2583044, "longitude": 75.7745132, "Land": "KSEB POLE MOUNTED", "Type": "2 \/ 3 Wheeler" }, "geometry": { "type": "Point", "coordinates": [ 75.7745132, 11.2583044 ] } },
+{ "type": "Feature", "properties": { "ID": 21, "Location": "PALAYAM", "lattitude": 11.24933292, "longitude": 75.78557941, "Land": "Charge MOD CHARGING STATION ", "Type": "2 \/ 3 Wheeler" }, "geometry": { "type": "Point", "coordinates": [ 75.78557941, 11.24933292 ] } },
+{ "type": "Feature", "properties": { "ID": 22, "Location": "PALAYAM", "lattitude": 11.24902992, "longitude": 75.78612137, "Land": "Charge MOD CHARGING STATION ", "Type": "2 \/ 3 Wheeler" }, "geometry": { "type": "Point", "coordinates": [ 75.78612137, 11.24902992 ] } },
+{ "type": "Feature", "properties": { "ID": 23, "Location": "PUTHIYANGADI", "lattitude": 11.3034437, "longitude": 75.76067344000001, "Land": "Charge MOD CHARGING STATION ", "Type": "2 \/ 3 Wheeler" }, "geometry": { "type": "Point", "coordinates": [ 75.76067344, 11.3034437 ] } },
+{ "type": "Feature", "properties": { "ID": 24, "Location": "PUTHIYANGADI", "lattitude": 11.3001384, "longitude": 75.7627081, "Land": "Charge MOD CHARGING STATION ", "Type": "2 \/ 3 Wheeler" }, "geometry": { "type": "Point", "coordinates": [ 75.7627081, 11.3001384 ] } }
+]
+}
