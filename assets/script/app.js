@@ -6,6 +6,8 @@
 
   var osm = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png?{foo}', {foo: 'bar', attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors | Powered by <a href="http://geominds.in/">Geominds</a>'}).addTo(map);
   map.setView([11.4588,75.7804],10)
+  L.control.scale().addTo(map);
+  
 
   /***********************************************************
                       Icon
@@ -278,7 +280,9 @@
                       Layer
   ************************************************************/
   var zoomHome = L.Control.zoomHome({position: 'topleft'});
+  
   zoomHome.addTo(map);
+
 
   var baseLayers = {
     
@@ -341,6 +345,12 @@ copyDate.innerHTML += new Date().getFullYear();
       fillOpacity: 0.0,
   });
 }
+
+L.easyPrint({
+  title: 'My awesome print button',
+  position: 'bottomright',
+  sizeModes: ['A4Portrait', 'A4Landscape']
+}).addTo(map);
 
 console.log("Hey There%c dev \n%cA short note about me I am %cRithin Jose %c\nI am a MERN developer who loves to make Websites.\nFor any form of colaborations ping me at %crithinja@gmail.com",'color:red','color:none','font-weight:700','font-weight:500','font-weight:700');
 
