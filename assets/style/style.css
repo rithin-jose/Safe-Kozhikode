@@ -355,6 +355,7 @@ a#mapButton{
   to{
     fill: #000 ;
   }
+
 }
 
 #legendTitle{
@@ -370,4 +371,5 @@ a#mapButton{
 
 .hide{
   display: none;
+
 }
