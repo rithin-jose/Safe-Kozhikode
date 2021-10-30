@@ -1,1 +1,4 @@
-# RTO-KKD
+
+# Safe Kozhikode Geoportal User Manual  
+
+Safe Kozhikode is map developed for RTO enforcement team Kozhikode. It shows National Highways, State Highways, Major District roads, Police stations, Fire Stations, location of Electric Vehicle charging point Black spots in various routes, jurisdiction of RTO and SRT offices located and major Government offices for the effective enforcement of different RTO squads in city limits as well as in rural areas of the district. It also helps the operational management of transportation in occurrence of natural calamities and relief and rescue operations during any disaster. Safe Kozhikode Geoportal is the Geospatial data visualization portal for the data related to the road safety. The Portal is made and maintained by RTO enforcement team Kozhikode developed by [Geominds](http://geominds.in). The portal can be viewed by logging in to [http://safekozhikode.geominds.in/](http://safekozhikode.geominds.in/).

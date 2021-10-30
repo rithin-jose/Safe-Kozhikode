@@ -356,3 +356,14 @@ a#mapButton{
     fill: #000 ;
   }
 }
+
+#legendTitle{
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.collapseButtonLegend{
+  padding-left: 25%;
+  color: #00f;
+  cursor: pointer;
+}
