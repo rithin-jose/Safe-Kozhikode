@@ -1,0 +1,21 @@
+var speedCamera = {
+"type": "FeatureCollection",
+"name": "Speed_Camera",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Speed Camera location": "KUNDUPARAMBU", "Latitude": 11.3131898, "Longitude": 75.7814956, "RTOCode": "KL11" }, "geometry": { "type": "Point", "coordinates": [ 75.7814956, 11.3131898 ] } },
+{ "type": "Feature", "properties": { "Speed Camera location": "AMBALAPADI", "Latitude": 11.3276922, "Longitude": 75.770379, "RTOCode": "KL11" }, "geometry": { "type": "Point", "coordinates": [ 75.770379, 11.3276922 ] } },
+{ "type": "Feature", "properties": { "Speed Camera location": "ELATHUR-1", "Latitude": 11.3379493, "Longitude": 75.7406567, "RTOCode": "KL11" }, "geometry": { "type": "Point", "coordinates": [ 75.7406567, 11.3379493 ] } },
+{ "type": "Feature", "properties": { "Speed Camera location": "ELATHUR-2", "Latitude": 11.3378367, "Longitude": 75.7407881, "RTOCode": "KL11" }, "geometry": { "type": "Point", "coordinates": [ 75.7407881, 11.3378367 ] } },
+{ "type": "Feature", "properties": { "Speed Camera location": "VALAMKULAM", "Latitude": 11.2804604, "Longitude": 75.8204826, "RTOCode": "KL11" }, "geometry": { "type": "Point", "coordinates": [ 75.8204826, 11.2804604 ] } },
+{ "type": "Feature", "properties": { "Speed Camera location": "MUNDIKKAL THAZHAM", "Latitude": 11.2854688, "Longitude": 75.8539496, "RTOCode": "KL11" }, "geometry": { "type": "Point", "coordinates": [ 75.8539496, 11.2854688 ] } },
+{ "type": "Feature", "properties": { "Speed Camera location": "CALICUT SAIL -1", "Latitude": 11.2031993, "Longitude": 75.814261, "RTOCode": "KL85" }, "geometry": { "type": "Point", "coordinates": [ 75.814261, 11.2031993 ] } },
+{ "type": "Feature", "properties": { "Speed Camera location": "CALICUT SAIL -2", "Latitude": 11.2035875, "Longitude": 75.813943, "RTOCode": "KL85" }, "geometry": { "type": "Point", "coordinates": [ 75.813943, 11.2035875 ] } },
+{ "type": "Feature", "properties": { "Speed Camera location": "VAVAD", "Latitude": 11.3891327, "Longitude": 75.91965, "RTOCode": "KL57" }, "geometry": { "type": "Point", "coordinates": [ 75.91965, 11.3891327 ] } },
+{ "type": "Feature", "properties": { "Speed Camera location": "MAKKOOTTAM", "Latitude": 11.3231932, "Longitude": 75.884442, "RTOCode": "KL57" }, "geometry": { "type": "Point", "coordinates": [ 75.884442, 11.3231932 ] } },
+{ "type": "Feature", "properties": { "Speed Camera location": "MOODADI", "Latitude": 11.469695, "Longitude": 75.654138, "RTOCode": "KL56" }, "geometry": { "type": "Point", "coordinates": [ 75.654138, 11.469695 ] } },
+{ "type": "Feature", "properties": { "Speed Camera location": "AYANIKKAD", "Latitude": 11.533105, "Longitude": 75.615589, "RTOCode": "KL56" }, "geometry": { "type": "Point", "coordinates": [ 75.615589, 11.533105 ] } },
+{ "type": "Feature", "properties": { "Speed Camera location": "CHOMBALA-1", "Latitude": 11.673032, "Longitude": 75.555119, "RTOCode": "KL18" }, "geometry": { "type": "Point", "coordinates": [ 75.555119, 11.673032 ] } },
+{ "type": "Feature", "properties": { "Speed Camera location": "CHOMBALA-2", "Latitude": 11.673354, "Longitude": 75.554883, "RTOCode": "KL18" }, "geometry": { "type": "Point", "coordinates": [ 75.554883, 11.673354 ] } }
+]
+}
