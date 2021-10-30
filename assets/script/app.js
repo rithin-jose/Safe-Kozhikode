@@ -179,7 +179,7 @@
       layer.bindPopup(
         "<p>"+
         "<div class='text-center'><strong>"+feature.properties.VILLAGE+" Village</strong>" +"<br>"+ 
-        feature.properties.TALUK+"</div><br>"+
+        "<strong>Taluk: </strong>"+feature.properties.TALUK+"</div><br>"+
         'Area: '+feature.properties["AREA(SQKM)"]+" km<sup>2</sup>"+
         "</p>"
       )
