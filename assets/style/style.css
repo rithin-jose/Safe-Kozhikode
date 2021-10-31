@@ -2,6 +2,7 @@ section#home{
   height:70vh;
 }
 section#mapsection{
+  padding-top: 5%;
   height:100vh;
 }
 section#key{
@@ -114,8 +115,9 @@ a#mapButton{
   padding: 20px 0px;
 }
 
-#usermanual{
+a#usermanual{
   margin: 20px 0px 20px 70px;
+  
 }
 
 
